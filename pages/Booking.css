@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.booking-form-container {
+    background-color: #0cc9b6;
+    padding: 20px ;
+    padding-bottom: 6px;
+    padding-top: 1px;
+    border-radius: 5px;
+    overflow-y:auto ;
+}
+
+.booking-form h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color:rgb(36, 9, 106);
+    font-family: cursive;
+    margin-left: 16%;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 4px;
+    color: #333;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    display: inline-block;
+    background-color: #080e65;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #056522;
+}
